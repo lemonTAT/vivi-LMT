@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+
+    "pages/weather/weather",
+    "pages/steps/steps"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat&LMT",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#838383",
+    "selectedColor": "#ea5503",
+    "backgroundColor": "#f7f7f7",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "index",
+        "iconPath": "images/common/index.png",
+        "selectedIconPath": "images/common/index_active.png"
+      },
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "weather",
+        "iconPath": "images/common/weather.png",
+        "selectedIconPath": "images/common/weather_active.png"
+      },
+      {
+        "pagePath": "pages/steps/steps",
+        "text": "steps",
+        "iconPath": "images/common/steps.png",
+        "selectedIconPath": "images/common/steps_active.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
